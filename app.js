@@ -51,13 +51,13 @@ var obtainedNumbers=English+Maths+Urdu;
 var totalNumbers=300;
 var percentage=obtainedNumbers/totalNumbers*100;
 if (percentage>=80){
-    console.log("Congrats A+ Grade!!")
+    alert("Congrats A+ Grade!!")
 }
 else if(percentage>=70){
-    console.log("Congrats A Grade")
+    alert("Congrats A Grade")
 }
 else if(percentage>=60){
-    console.log("Congrats B Grade")
+    alert("Congrats B Grade")
 }
 else {
     alert("Numbers are not valid")
